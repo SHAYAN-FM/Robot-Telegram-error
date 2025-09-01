@@ -1,7 +1,7 @@
 import telebot
 import random
 
-bot = telebot.TeleBot("8462658571:AAGNPAy8MY8Khgr3FkcAyFkgGnLzlL6Pfxc")
+bot = telebot.TeleBot("tokenam")
 motivational_quotes = [
     "دنبال یه دلیل برای پرواز بگرد حتی وقتی هزار دلیل برای سقوط داری...",
     "گاهی باید بدترین دردها رو بکشی تا بهترین تغییرها رو تجربه کنی...",
@@ -1001,3 +1001,4 @@ Traceback (most recent call last):
     raise ConnectTimeout(e, request=request)
 requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8462658571:***********************************/getMe (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000013BD0AEA5D0>, 'Connection to api.telegram.org timed out. (connect timeout=15)'))
 "
+
